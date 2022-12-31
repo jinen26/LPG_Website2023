@@ -1,0 +1,290 @@
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+header h1 {
+  color: white;
+  margin: 8px 20px;
+}
+header h2 {
+  color: white;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+header .nav {
+  width: 100%;
+  background-color: #b1040e;
+  font-size: 15px;
+}
+main {
+  margin-top: 0;
+}
+#white {
+  color: aliceblue;
+  font-weight: 600;
+  margin-top: 8px;
+}
+#white:hover {
+  background-color: #700308;
+  margin: 0;
+}
+main .content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .content .image {
+  margin-right: 50px;
+}
+#red {
+  color: #f9f6ef;
+  background-color: #700308;
+  border-color: #700308;
+}
+main .news {
+  background-color: #f9f6ef;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .news h1 {
+  font-size: 50px;
+  margin-top: 80px;
+  font-weight: 1000;
+  margin-left: 380px;
+}
+main .news p {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#hs {
+  margin-left: 439px;
+}
+main .news .awardcard {
+  width: 50px;
+  height: 50px;
+  margin-left: 250px;
+  margin-top: 125px;
+}
+main .news .awardcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .news .successcard {
+  width: 50px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 0;
+}
+main .news .successcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .news .profcard {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+main .news .profcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .news .clubcard {
+  width: 50px;
+  height: 50px;
+  margin-top: -550px;
+  margin-left: -450px;
+}
+main .news .clubcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .Activities {
+  margin-top: 1000px;
+}
+main .Activities h1 {
+  margin-left: 550px;
+}
+main .Activities p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+main .Activities .celcard {
+  width: 50px;
+  height: 50px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+main .Activities .celcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .Activities .youthcard {
+  width: 50px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 80px;
+}
+main .Activities .youthcard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .Activities .tunivisionscard {
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  margin-top: 60px;
+}
+main .Activities .tunivisionscard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+main .Activities .magazinecard {
+  width: 50px;
+  height: 50px;
+  margin-left: -450px;
+  margin-top: -390px;
+}
+main .Activities .magazinecard .card-text {
+  font-size: 20px;
+  margin-left: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 850px;
+}
+
+.item-container {
+  position: relative;
+  margin: 24px;
+  width: 320px;
+  height: 570px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.img-container,
+.body-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.body-container {
+  position: relative;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #c5676d88;
+  opacity: 0;
+  transition: height linear 0.4s, opacity linear 0.2s;
+}
+
+.item-container:hover .overlay {
+  opacity: 1;
+  height: 150px;
+}
+
+.event-info {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.title,
+.price {
+  color: #d6121b;
+  font-weight: bold;
+  font-size: 1px;
+  letter-spacing: 1px;
+  margin: 12px;
+}
+
+.info {
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.separator {
+  width: 20%;
+  height: 6px;
+  background-color: #d6121b;
+  margin-bottom: 16px;
+}
+
+.additional-info {
+  border-top: 1px solid #c5676d88;
+  margin-top: 12px;
+  padding: 28px;
+  padding-bottom: 0;
+}
+
+.additional-info .info {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info i {
+  color: #d6121b;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+.info span {
+  color: #d6121b;
+  font-weight: bolder;
+}
+
+.action {
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: transparent;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: background-color 0.4s, top 0.4s;
+}
+
+.item-container:hover .action {
+  top: 50px;
+}
+
+.action:hover {
+  background-color: #c5676d88;
+}
